@@ -2,11 +2,19 @@
 let imageRecup = document.querySelector("#image1")
 // console.log(imageRecup);
 
-  image.addEventListener("mouseover", handleMouseoverOnImage);
+  imageRecup.addEventListener("mouseover", handleMouseoverOnImage);
+    imageRecup.addEventListener("mouseout", handleMouseOutOnImage);
 
 
+function handleMouseoverOnImage() {
+    // console.log(imageRecup);
+    imageRecup.classList.add("border-red");
+}
 
-
+function handleMouseOutOnImage() {
+    // console.log(imageRecup);
+    imageRecup.classList.remove("border-red");
+}
 
 
 
