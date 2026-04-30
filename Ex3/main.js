@@ -27,9 +27,3 @@ function cleanColor() {
 
    paragraphe.classList.remove("text-blue","text-red", "text-green" ); 
 }
-
-
-
-
-
-

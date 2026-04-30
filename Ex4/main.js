@@ -9,16 +9,14 @@ function handleClickOnButton(evenement) {
   cleanColor();
   if (password.value === confirmPassword.value) {
     password.classList.add("mdp-green");
-    confirmPassword.classList.add("c-mdp-green");
+    confirmPassword.classList.add("mdp-green");
   } else {
     password.classList.add("mdp-red");
-    confirmPassword.classList.add("c-mdp-red");
+    confirmPassword.classList.add("mdp-red");
   }
-
-    button = evenement.target;
 }
 
 function cleanColor() {
   password.classList.remove("mdp-green", "mdp-red");
-  confirmPassword.classList.remove("c-mdp-green", "c-mdp-red");
+  confirmPassword.classList.remove("mdp-green", "mdp-red");
 }
