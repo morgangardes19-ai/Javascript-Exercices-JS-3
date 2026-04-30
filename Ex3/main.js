@@ -1,7 +1,6 @@
 let couleurVerte = document.querySelector("#vert");
 let couleurRouge = document.querySelector("#rouge");
 let couleurBleue = document.querySelector("#bleu");
-// let colors = document.querySelector(".color")
 let paragraphe = document.querySelector("#text");
 console.log(couleurVerte);
 
